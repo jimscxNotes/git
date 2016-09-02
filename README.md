@@ -6,6 +6,10 @@ $ git init [project-name]
 # 下载一个项目和它的整个代码历史
 $ git clone [url]
 ```
+##### 1.1 mac下免密登录 只需要输入一次密码
+```
+git config --global credential.helper osxkeychain
+```
 
 #### 2.创建项目后加入.gitignore文件没起作用
 
